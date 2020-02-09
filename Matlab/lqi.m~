@@ -1,0 +1,7 @@
+str = "cca.csv"
+for i = i:2416
+    if i%2 == 0
+        dlmwrite(str_lqi,1,'delimiter',',','-append');
+    else
+        dlmwrite(str_lqi,0,'delimiter',',','-append');
+end
